@@ -15,5 +15,5 @@ scrape_configs:
           - localhost
         labels:
           job: spring
-          app: item-service
+          app: policy-service
           __path__: /var/log/app/*.log   # <-- path inside container, matches mounted folder
